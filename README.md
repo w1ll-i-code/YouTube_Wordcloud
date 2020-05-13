@@ -13,4 +13,4 @@ $ python yt_wordcloud_generator <path_to_json> [<year_to_start>]
 
 Make sure you have wordcloud and numpy installed. If not, install them via the command "pip install numpy" and "pip install wordcloud" respectively.
 
-![example file](https://user-images.githubusercontent.com/5473047/42466218-8cb53d3c-83ae-11e8-8e53-bae3669f959c.png "example file")
+![example file](https://raw.githubusercontent.com/Java-boi/YouTube_Wordcloud/master/wordcloud.png "example file")
