@@ -50,7 +50,7 @@ word_cloud = WordCloud(
     relative_scaling=.75, margin=10,
     font_step=5,
     random_state=1, max_words=600, mask=mask
-    ).generate_from_frequencies(dict(Counter(yter)))
+    ).generate_from_frequencies(dict(Counter(channels)))
 
 word_cloud.recolor(color_func=red_color_func)
 
