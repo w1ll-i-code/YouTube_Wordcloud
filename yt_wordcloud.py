@@ -16,7 +16,7 @@ def red_color_func(word, font_size, position, orientation, random_state=None, **
 
 # if no file is given, print usage and exit
 if len(sys.argv) < 2:
-    print("Usage: wordcloud <path_to_json> [<year_to_start> (Default: 2018)]")
+    print("Usage: wordcloud <path_to_json>")
     exit()
 
 try: 
@@ -34,12 +34,12 @@ except Error:
 data = filter(lambda a: 'subtitles' in list(a.keys()) and a['time'].startswith('2020'), data)
 yters = c.Counter( [a['subtitles'][0]['name'] for a in data] )
 
-mask = np.array( Image.open("yt2.png") )
+mask = np.array( Image.open("yt_logo.png") )
 
 word_cloud = WordCloud( background_color="#282828"
     , repeat=False
     , relative_scaling=.75
-    , margin=0
+    , margin=4
     , font_step=5
     , random_state=1
     , max_words=600
