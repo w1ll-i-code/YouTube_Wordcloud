@@ -2,7 +2,7 @@
 A simple tool to generate a wordcloud from your most watched YouTube Channels.
 
 First you need to get the data.
-* visit (takeout.google.com)[takeout.google.com]
+* visit [takeout.google.com](takeout.google.com)
 * enter your credetials
 * Select YouTube and YouTube Music.
 * On the bottom left is a button to select the Format. Select JSON for your Youtube watch history.
