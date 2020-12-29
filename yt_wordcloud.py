@@ -47,4 +47,4 @@ word_cloud = WordCloud( background_color="#282828"
     ).generate_from_frequencies(yters)
 
 word_cloud.recolor(color_func=red_color_func)
-word_cloud.to_file("word_cloud.png")
+word_cloud.to_file("wordcloud.png")
