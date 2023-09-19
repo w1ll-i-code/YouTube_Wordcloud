@@ -7,7 +7,7 @@ First you need to get the data.
 * Select YouTube and YouTube Music.
 * On the bottom left is a button to select the Format. Select JSON for your Youtube watch history.
 
-Make sure you have wordcloud and numpy installed. If not, install them via the command "pip install numpy" and "pip install wordcloud" respectively.
+> Make sure you have wordcloud and numpy installed. If not, install them via the command "pip install numpy" and "pip install wordcloud" respectively.
 
 Once that is done you have to wait until your takeout is ready. Then you can download it and run this tool like
 ```
